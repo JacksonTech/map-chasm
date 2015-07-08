@@ -216,3 +216,32 @@ textures/chasm_custom/light01_white_12000
 	specularMap         textures/shared_pk02_src/light01_s
 	glowMap             textures/shared_pk02_src/light01_a
 }
+
+textures/chasm_custom/floor10
+{
+	qer_editorImage     textures/shared_pk02_src/floor10_p
+	qer_trans           0.30
+
+	cull                none
+	surfaceparm         metalsteps
+	surfaceparm         trans
+	surfaceparm 	    alphashadow
+	surfaceparm 	    nomarks
+
+	{
+		map       textures/shared_pk02_src/floor10_d
+		stage     diffuseMap
+		alphaFunc GE128
+		depthWrite
+	}
+	{ 
+		stage normalMap
+		map   textures/shared_pk02_src/floor10_n
+		depthFunc equal
+	}
+	{
+		stage specularMap
+		map textures/shared_pk02_src/floor10_s
+		depthFunc equal
+	}
+}
