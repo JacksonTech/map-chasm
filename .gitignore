@@ -1,0 +1,6 @@
+maps/*.autosave.map
+maps/*.bak
+maps/chasm/
+maps/*.srf
+maps/*.prt
+maps/*.bsp

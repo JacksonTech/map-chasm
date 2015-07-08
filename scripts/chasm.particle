@@ -1,0 +1,34 @@
+chasm/snowfall
+{
+	ejector
+	{
+		particle
+		{
+		shader sync textures/chasm_custom/flake_01_s
+		displacement 		0 0 0 ~512
+
+		velocityType		static
+	
+		velocityDir			linear
+	
+		velocityMagnitude		130
+		velocity			0 0 -1 ~25
+
+		accelerationType		static
+		accelerationDir		linear
+		acceleration		0 0 0 ~25
+		accelerationMagnitude 	52
+
+
+		radius		0 4 3
+		alpha			0 .3 .4
+		rotation		0 0 ~360
+		bounce		0.0
+
+		lifeTime 9000
+		}
+	count infinite
+	delay 0
+	period 250 - ~2%
+	}
+}

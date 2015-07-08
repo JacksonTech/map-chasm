@@ -1,0 +1,50 @@
+-[GENERAL]---------------------------------------------------------------------
+    title : Chasm
+    version : 1.0
+    release date : 2013-10-26
+    author: Supertanker
+
+-[LICENSE]---------------------------------------------------------------------
+   Snow Station map file is licensed under a
+    Creative Commons Attribution-Noncommercial-Share Alike 3.0 License:  
+    http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+-[CREDITS]---------------------------------------------------------------------
+    textures : Quake4 eX Texture Set by Yves Allaire aka "evillair" 
+               (http://evillair.net)
+               released under CC BY-NC-ND license
+               (http://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+               PK01 and PK02 Quake4 texture set by Philip Klevestav
+               (http://www.philipk.net)
+               released under CC BY license
+               (http://creativecommons.org/licenses/by/3.0/deed.en_US)
+               
+               Powerplant Textures (q4power) set by Matt "Lunaran" Breit
+               (http://www.lunaran.com)
+               
+
+    sounds :  
+		Wind sounds by kangaroovindaloo on freesound.org (CC BY 3.0)
+		Generator sound by HerbertBoland on freesound.org (CC Sampling Plus 1.0)
+		Drone sound by yawfle on freesound.org (CC Sampling Plus 1.0)
+
+		ambient.wav (originally: sound-underwater2.wav) by zippi1
+			(http://www.freesound.org/people/zippi1/sounds/18265/)
+			released under CC BY-NC license
+
+    particles : borrowed from Niveus
+
+-[BUILD]-----------------------------------------------------------------------
+IGNORE THIS I HAVEN'T UPDATED IT YET
+    software : Netradiant 1.5.0, q3map2, GIMP 2.8, audacity 2.0.2
+    compile : q3map2 -threads 4 -meta -custinfoparms -keeplights
+              q3map2 -threads 4 -vis -saveprt
+              q3map2 -threads 4 -light -faster -patchshadows -deluxe 
+                     -deluxemode 1 -lightmapsize 1024 -external
+    compile time : 298 seconds on i3-2120 CPU @ 3.30GHz x 4
+	
+-[CHANGELOG]-------------------------------------------------------------------
+	beta1: first speedmap result (4 days)
+	beta2: changed computer room, added rocks and stuff outside
+	beta3: added snow particles
