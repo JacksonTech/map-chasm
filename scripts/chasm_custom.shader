@@ -245,3 +245,22 @@ textures/chasm_custom/floor10
 		depthFunc equal
 	}
 }
+
+// grate
+textures/chasm_pk02/floor10
+{
+	qer_editorImage     textures/chasm_pk02_src/pk02_floor10_C
+	qer_trans           0.50
+
+	cull                none
+	surfaceparm         metalsteps
+	surfaceparm         trans
+	surfaceparm 	    alphashadow
+	{
+		map       textures/chasm_pk02_src/pk02_floor10_C
+		stage     diffuseMap
+		alphaFunc GE128
+	}
+	normalMap           textures/chasm_pk02_src/pk02_floor10_N
+	specularMap         textures/chasm_pk02_src/pk02_floor10_S
+}
