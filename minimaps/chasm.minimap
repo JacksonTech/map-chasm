@@ -1,0 +1,8 @@
+{
+    backgroundColor 0.0 0.0 0.0 0.333
+
+    zone {
+        bounds -2848 -1024 -1024 2432 3008 576
+        image "minimaps/chasm" -2848 -1024 2432 3008 
+    }
+}
